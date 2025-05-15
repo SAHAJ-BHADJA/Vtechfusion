@@ -5,9 +5,7 @@ import {
   Phone, 
   Mail, 
   Clock, 
-  Linkedin, 
-  Twitter, 
-  Instagram 
+  Linkedin
 } from 'lucide-react';
 import Logo from '../common/Logo';
 
@@ -27,12 +25,6 @@ const Footer: React.FC = () => {
             <div className="flex space-x-4">
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-secondary-400 transition-colors">
                 <Linkedin size={20} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="hover:text-secondary-400 transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-secondary-400 transition-colors">
-                <Instagram size={20} />
               </a>
             </div>
           </div>
@@ -93,11 +85,11 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0" />
-                <span className="text-sm">1234 Tech Avenue, Innovation District, San Francisco, CA 94105</span>
+                <span className="text-sm">6th Floor, Galaxy Business Park,<br/>Near Science City Road,Sola,<br/>Ahmedabad – 380060,<br/>Gujarat, India</span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 flex-shrink-0" />
-                <a href="tel:+14155550123" className="text-sm hover:text-secondary-400 transition-colors">+1 (415) 555-0123</a>
+                <a href="tel:+917405673351" className="text-sm hover:text-secondary-400 transition-colors">+91-7405673351</a>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />

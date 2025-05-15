@@ -8,7 +8,6 @@ import {
   Globe, 
   ShoppingCart, 
   Code, 
-  Smartphone, 
   Smartphone as SmartphoneIcon, 
   Palette, 
   LifeBuoy 
@@ -64,7 +63,7 @@ const Services: React.FC = () => {
     {
       icon: <Server size={28} />,
       title: "IT Support",
-      description: "Comprehensive technical support to keep your business running smoothly.",
+      description: "Comprehensive technical support to keep your business and system running smoothly.",
       features: [
         "24/7 Helpdesk Support",
         "On-site Technical Assistance",
@@ -100,7 +99,7 @@ const Services: React.FC = () => {
     {
       icon: <Wifi size={28} />,
       title: "Networking",
-      description: "Establish reliable network infrastructure for seamless connectivity.",
+      description: "Set up a reliable network for seamless connectivity.",
       features: [
         "Network Design & Implementation",
         "Wi-Fi Setup & Optimization",

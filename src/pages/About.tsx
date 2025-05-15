@@ -109,7 +109,7 @@ const About: React.FC = () => {
                 subtitle="From a small startup to a leading technology company."
               />
               <p className="text-gray-600 mb-6">
-                Founded in 2015, VTechFusion began with a simple mission: to help businesses leverage 
+                Founded in 2020, VTechFusion began with a simple mission: to help businesses leverage 
                 technology to achieve their goals. What started as a small team of passionate developers 
                 has grown into a comprehensive technology partner serving clients across multiple industries.
               </p>

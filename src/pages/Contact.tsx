@@ -8,7 +8,7 @@ import {
   Send 
 } from 'lucide-react';
 import SectionTitle from '../components/common/SectionTitle';
-import Button from '../components/common/Button';
+// import Button from '../components/common/Button';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Our Location</h3>
-                    <p className="text-gray-600">1234 Tech Avenue, Innovation District<br />San Francisco, CA 94105</p>
+                    <p className="text-gray-600">6th Floor, Galaxy Business Park,<br/>Near Science City Road,Sola,<br/>Ahmedabad – 380060,<br/>Gujarat, India </p>
                   </div>
                 </div>
                 
@@ -135,7 +135,7 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+14155550123" className="hover:text-primary-600 transition-colors">+1 (415) 555-0123</a>
+                      <a href="tel:+917405673351" className="hover:text-primary-600 transition-colors">+91-7405673351</a>
                     </p>
                   </div>
                 </div>
@@ -167,10 +167,6 @@ const Contact: React.FC = () => {
                 </div>
               </div>
               
-              {/* Google Map would go here */}
-              <div className="mt-8 rounded-lg overflow-hidden h-64 bg-gray-200 flex items-center justify-center">
-                <p className="text-gray-500">Google Maps Integration</p>
-              </div>
             </motion.div>
             
             {/* Contact Form */}
