@@ -7,6 +7,7 @@ import {
   Users 
 } from 'lucide-react';
 import SectionTitle from '../components/common/SectionTitle';
+import AboutPageImage from './photos/Appdevelopment-rafiki.svg';
 
 interface ValueCardProps {
   icon: React.ReactNode;
@@ -133,7 +134,7 @@ const About: React.FC = () => {
               transition={{ duration: 0.5 }}
             >
               <img 
-                src="https://images.pexels.com/photos/3182811/pexels-photo-3182811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src={AboutPageImage}
                 alt="VTechFusion Team Working" 
                 className="rounded-lg shadow-lg w-full"
               />

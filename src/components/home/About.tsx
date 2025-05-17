@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
 import Button from '../common/Button';
+import AboutOnLandingPage from '../../pages/photos/landing_page.svg';
 
 const AboutSection: React.FC = () => {
   const benefits = [
@@ -23,7 +24,7 @@ const AboutSection: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <img 
-              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src={AboutOnLandingPage} 
               alt="VTechFusion Team" 
               className="rounded-lg shadow-lg w-full"
             />

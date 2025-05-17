@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Code, Shield, Zap } from 'lucide-react';
 import Button from '../common/Button';
+import LandingPageImage from '../../pages/photos/Low code development-rafiki.svg';
 
 const Hero: React.FC = () => {
   const features = [
@@ -116,7 +117,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-600/30 to-transparent rounded-3xl" />
               <img
-                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src={LandingPageImage}
                 alt="Digital Transformation"
                 className="rounded-3xl shadow-2xl w-full object-cover"
                 style={{ height: '600px' }}
