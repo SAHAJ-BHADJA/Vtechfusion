@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Our Location</h3>
-                    <p className="text-gray-600">6th Floor, Galaxy Business Park,<br/>Near Science City Road,Sola,<br/>Ahmedabad – 380060,<br/>Gujarat, India </p>
+                    <p className="text-gray-600">H/21 Business Lane,<br/>Satellite,Ahmedabad – 380015,<br/>Gujarat, India</p>
                   </div>
                 </div>
                 
