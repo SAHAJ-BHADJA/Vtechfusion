@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Quote } from 'lucide-react';
-import SectionTitle from '../components/common/SectionTitle';
 
 interface TestimonialProps {
   quote: string;
@@ -138,32 +137,6 @@ const Testimonials: React.FC = () => {
         </div>
       </section>
 
-      {/* Client Logos */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4 lg:px-8">
-          <SectionTitle 
-            title="Trusted by Industry Leaders" 
-            subtitle="We're proud to work with innovative companies across various industries."
-            center={true}
-          />
-          
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
-            {/* These would normally be client logos, using placeholders here */}
-            {[1, 2, 3, 4, 5, 6].map((num) => (
-              <motion.div 
-                key={num}
-                className="bg-white rounded-lg shadow-sm p-4 w-full h-20 flex items-center justify-center"
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: num * 0.1 }}
-              >
-                <div className="text-lg font-semibold text-gray-400">Client {num}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-primary-600 text-white">
