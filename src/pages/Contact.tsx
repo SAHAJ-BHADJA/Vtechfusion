@@ -158,7 +158,8 @@ const Contact: React.FC = () => {
                           +91-7405673351
                         </a>
                       </span>
-                      <span className="ml-4">
+                      <span>, </span>
+                      <span>
                         <a
                           href="tel:+919157838669"
                           className="hover:text-primary-600 transition-colors"

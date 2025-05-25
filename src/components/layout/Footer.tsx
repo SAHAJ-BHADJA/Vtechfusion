@@ -162,7 +162,8 @@ const Footer: React.FC = () => {
                     +91-7405673351
                   </a>
                 </span>
-                <span className="ml-4">
+                <span>, </span>
+                <span>
                   <a
                     href="tel:+919157838669"
                     className="text-sm hover:text-secondary-400 transition-colors"
