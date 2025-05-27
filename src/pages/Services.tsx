@@ -19,7 +19,8 @@ import {
   BarChart,
   Workflow,
   Star,
-  ShoppingBag
+  ShoppingBag,
+  Code2
 } from "lucide-react";
 import SectionTitle from "../components/common/SectionTitle";
 import Button from "../components/common/Button";
@@ -229,6 +230,19 @@ const Services: React.FC = () => {
 
   const digitalMarketing = [
     {
+      icon: <Code2 size={28} />,
+      title: "Website Development & Optimization",
+      description:
+        "Custom pages to enhance user experience and campaign performance.",
+      features: [
+        "Responsive website design (mobile-friendly)",
+        "CMS integration (e.g., WordPress, Shopify)",
+        "SEO optimization (on-page, technical)",
+        "Landing page creation for campaigns",
+      ],
+      delay: 0,
+    },
+    {
       icon: <Search size={28} />,
       title: "Search Engine Optimization",
       description:
@@ -239,7 +253,7 @@ const Services: React.FC = () => {
         "Link Building",
         "SEO Audits & Reporting",
       ],
-      delay: 0,
+      delay: 1,
     },
     {
       icon: <MousePointer size={28} />,
@@ -252,7 +266,7 @@ const Services: React.FC = () => {
         "A/B Testing",
         "ROI Analysis",
       ],
-      delay: 1,
+      delay: 2,
     },
     {
       icon: <Share2 size={28} />,
@@ -264,7 +278,7 @@ const Services: React.FC = () => {
         "Paid Campaigns",
         "Engagement Tracking",
       ],
-      delay: 2,
+      delay: 3,
     },
     {
       icon: <Mail size={28} />,
@@ -277,7 +291,7 @@ const Services: React.FC = () => {
         "List Segmentation",
         "Performance Analytics",
       ],
-      delay: 3,
+      delay: 4,
     },
     {
       icon: <FileText size={28} />,
@@ -290,7 +304,7 @@ const Services: React.FC = () => {
         "Content Strategy",
         "SEO Optimization",
       ],
-      delay: 4,
+      delay: 5,
     },
     {
       icon: <BarChart size={28} />,
@@ -303,7 +317,7 @@ const Services: React.FC = () => {
         "Performance Reports",
         "Customer Journey Analysis",
       ],
-      delay: 5,
+      delay: 6,
     },
     {
       icon: <Workflow size={28} />,
@@ -316,7 +330,7 @@ const Services: React.FC = () => {
         "CRM Integration",
         "Behavioral Targeting",
       ],
-      delay: 6,
+      delay: 7,
     },
     {
       icon: <Star size={28} />,
@@ -329,7 +343,7 @@ const Services: React.FC = () => {
         "Brand Analysis",
         "Social Listening",
       ],
-      delay: 7,
+      delay: 8,
     },
     {
       icon: <ShoppingBag size={28} />,
@@ -342,7 +356,7 @@ const Services: React.FC = () => {
         "Cart Recovery",
         "Multi-channel Marketing",
       ],
-      delay: 8,
+      delay: 9,
     },
   ];
 
